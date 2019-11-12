@@ -12,7 +12,7 @@ var newProfileList = [
    function ProfileList(){
     return (
         <div>
-          <hr/>
+         
           {newProfileList.map((profile, index) =>
             <Profile images={profile.images}
             names={profile.names}

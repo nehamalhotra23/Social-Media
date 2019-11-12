@@ -4,22 +4,18 @@ import PropTypes from "prop-types";
 
 function Profile(props){
     return (
-<Container>
-  <Row>
-    <Col>1 of 2</Col>
       <div>
            <style jsx>{`
           div {
             background-color: white;
-            text-align: left;
-            border: solid;
+           
+         
           }
         `}</style>
-         <img src={props.images} height="200px"/>
+         <img src={props.images} height="150px"/>
         <h1>{props.names}</h1>
       </div>
-      </Row>
-      </Container>
+      
     );
   }
   

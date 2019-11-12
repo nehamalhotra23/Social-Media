@@ -8,10 +8,10 @@ function NewsFeed(props){
            <style jsx>{`
           div {
             background-color: light blue;
-            text-align: right;
+        
           }
         `}</style>
-         <img src={props.images} height="200px"/>
+         <img src={props.images} height="100px"/>
         <h1>{props.names}</h1>
         <p><em>{props.bio}</em></p>
       </div>
