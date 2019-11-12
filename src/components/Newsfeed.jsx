@@ -6,8 +6,7 @@ function NewsFeed(props) {
 
   return (
     <div>
-     
-      <style jsx>{`
+     <style jsx>{`
           div {
             background-color: light blue;
         }
@@ -16,8 +15,6 @@ function NewsFeed(props) {
           float: left;
           margin: 10px;
           border-radius: 5px;
-
-
         }
         .feed {
           margin-bottom: 20px;

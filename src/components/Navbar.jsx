@@ -7,9 +7,12 @@ function Navbar() {
           div {
             
         }
-      .search {
+      .search, .tweet {
         float: right;
-        margin: 20px;
+        border: solid 2px #aeaeae;
+        border-radius: 100px;
+        padding: 3px;
+        margin-right:5px;
         }
 
         .btn {
@@ -24,8 +27,8 @@ function Navbar() {
                 <button className="btn btn-danger">Profile</button>
                 <button className="btn btn-danger">Messages</button>
             </div>
-            <div className="search">
-                <input placeholder="search"></input>
+            <div className="searchTweet">
+                <input className="search" placeholder="search"></input>
                 <input className="tweet" placeholder="Tweet"></input>
             </div>
             <div className="feed">
