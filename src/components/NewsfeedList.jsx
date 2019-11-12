@@ -28,6 +28,7 @@ function NewsfeedList(){
         <div>
           {masterNewsfeedList.map((newsfeed, index) =>
             <Newsfeed images={newsfeed.images}
+          
             names={newsfeed.names}
               bio={newsfeed.bio}
               key={index}/>
