@@ -11,8 +11,10 @@ function Profile(props){
            
         }
         img {
-            border: solid red;
+            border: solid grey;
+            border-radius: 60px;
         }
+       
         `}</style>
          <img src={props.images} height="150px"/>
         <h1>{props.names}</h1>

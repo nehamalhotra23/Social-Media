@@ -4,7 +4,7 @@ import Profile from "./Profile";
 
 var newProfileList = [
     { 
-    images: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdpUIHUmJwkJ_SVbepBEMHoxrsmjMH_JTH69NQHUjgFC4zTWH&s',
+    images: 'https://img.icons8.com/cotton/2x/person-male.png',
      names: 'New baby',
    }
    ];

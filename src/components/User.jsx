@@ -9,16 +9,18 @@ function User(props){
            <style jsx>{`
           div {
             background-color: light blue;
+            padding: 10px;
         }
         img {
-          border: solid red;
+          border: solid grey;
+          border-radius: 4px;
         }
         .feed {
           margin-bottom: 20px;
         }
         `}</style>
          
-         <img src={props.images} height="100px"/>
+        <img src={props.images} height="50px"/>
         <h1>{props.names}</h1>
         <button className="btn btn-primary">Add friend</button>
         <hr/>
