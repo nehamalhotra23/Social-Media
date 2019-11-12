@@ -21,6 +21,7 @@ function NewsFeed(props){
          <img src={props.images} height="100px"/>
         <h1>{props.names}</h1>
         <p><em>{props.bio}</em></p>
+        <hr/>
        
       </div>
     );

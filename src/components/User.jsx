@@ -20,6 +20,8 @@ function User(props){
          
          <img src={props.images} height="100px"/>
         <h1>{props.names}</h1>
+        <button className="btn btn-primary">Add friend</button>
+        <hr/>
      
        
       </div>

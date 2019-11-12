@@ -16,7 +16,7 @@ function Navbar() {
             padding: 20px;
         }
         .btn btn-danger {
-            margin: auto;
+            margin-right: 10px;
         }
         `}</style>
             <div className="main">
