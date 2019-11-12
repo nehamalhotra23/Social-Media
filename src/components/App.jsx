@@ -1,5 +1,6 @@
 import React from "react";
-import TicketList from "./TicketList";
+import NewsfeedList from "./NewsfeedList";
+import ProfileList from "./ProfileList";
 import Header from "./Header";
 
 
@@ -7,7 +8,8 @@ function App(){
     return (
         <div>
           <Header/>
-          <TicketList/>
+          <NewsfeedList/>
+          <ProfileList/>
         </div>
       );
   }
