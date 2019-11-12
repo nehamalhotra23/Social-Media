@@ -6,10 +6,7 @@ function Profile(props){
     return (
       <div>
            <style jsx>{`
-          div {
-            background-color: white;
-           
-        }
+          
         img {
             border: solid grey;
             border-radius: 60px;
