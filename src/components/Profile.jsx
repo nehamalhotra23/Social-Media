@@ -17,6 +17,7 @@ function Profile(props){
         <h1>{props.names}</h1>
       </div>
       
+      
     );
   }
   

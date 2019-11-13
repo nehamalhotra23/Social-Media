@@ -17,9 +17,14 @@ function Navbar() {
 
         .btn {
             margin-right: 10px;
+            padding: 10px;
+            margin-left: 8px;
         }
         .feed {
-            margin-top: 30px;
+            margin-top: 60px;
+            border-radius: 20px;
+            margin-left: 230px;
+            
         }
         `}</style>
             <div className="main">
@@ -32,7 +37,7 @@ function Navbar() {
                 <input className="tweet" placeholder="Tweet"></input>
             </div>
             <div className="feed">
-                <input placeholder="What's happening"></input>
+                <input className="feed" placeholder="What's happening"></input>
             </div>
         </div>
     );

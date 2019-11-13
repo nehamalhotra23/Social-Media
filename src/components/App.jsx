@@ -31,6 +31,7 @@ function App(){
         `}</style>
          
             <Navbar/>
+            <hr/>
           <div className="row">
           <div className="col-md-4"><ProfileList/> <Bio/>
           </div>

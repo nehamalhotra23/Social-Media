@@ -20,7 +20,7 @@ function NewsFeed(props) {
           margin-bottom: 20px;
         }
         `}</style>
-      
+     
       <img src={props.images} height="70px" />
       <h1>{props.names}</h1>
       <p><em>{props.bio}</em></p>
